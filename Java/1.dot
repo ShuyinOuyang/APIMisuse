@@ -1,0 +1,41 @@
+digraph "buildServiceMap()" {
+
+  1 [ label="String" shape="ellipse" ];
+  2 [ label="ACCPService.setSelfTest() L84" shape="box" ];
+  3 [ label="String" shape="ellipse" ];
+  4 [ label="AmazonCorrettoCryptoProvider.isRdRandSupported() L83" shape="box" ];
+  5 [ label="Collections.singletonMap() L85" shape="box" ];
+  6 [ label="AesCtrDrbg.SPI.SELF_TEST" shape="ellipse" ];
+  7 [ label="Collections.emptyMap() L81" shape="box" ];
+  8 [ label="String" shape="ellipse" ];
+  9 [ label="String" shape="ellipse" ];
+  10 [ label="ACCPService" shape="ellipse" ];
+  11 [ label="Collections.singletonMap() L79" shape="box" ];
+  12 [ label="String" shape="ellipse" ];
+  13 [ label="String" shape="ellipse" ];
+  14 [ label="String" shape="ellipse" ];
+  15 [ label="String" shape="ellipse" ];
+  16 [ label="String" shape="ellipse" ];
+  17 [ label="{String} L74" shape="box" ];
+  13 -> 17 [ label="para" style="solid" ];
+  15 -> 17 [ label="para" style="solid" ];
+  11 -> 5 [ label="order" style="bold" ];
+  9 -> 11 [ label="para" style="solid" ];
+  11 -> 2 [ label="order" style="bold" ];
+  8 -> 11 [ label="para" style="solid" ];
+  11 -> 7 [ label="order" style="bold" ];
+  7 -> 4 [ label="order" style="bold" ];
+  10 -> 2 [ label="recv" style="solid" ];
+  7 -> 2 [ label="order" style="bold" ];
+  7 -> 5 [ label="order" style="bold" ];
+  11 -> 4 [ label="order" style="bold" ];
+  4 -> 2 [ label="order" style="bold" ];
+  5 -> 2 [ label="order" style="bold" ];
+  1 -> 5 [ label="para" style="solid" ];
+  4 -> 5 [ label="order" style="bold" ];
+  14 -> 17 [ label="para" style="solid" ];
+  6 -> 2 [ label="para" style="solid" ];
+  16 -> 17 [ label="para" style="solid" ];
+  3 -> 5 [ label="para" style="solid" ];
+  12 -> 17 [ label="para" style="solid" ];
+}
