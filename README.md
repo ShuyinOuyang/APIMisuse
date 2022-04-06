@@ -16,5 +16,5 @@ The vocab.txt is depend on your own generated API sequence data, and this file i
 This part only contains the link of MUBench, whose datasets were used in my experiment.    
 The data could be rather large to download, so please pay attention to the space occupied by the download location.    
 ## NGRAM
-This part of code is one of the baseline of my experience, please feel free to use it if necessary.    
+This part of code is one of the baseline of my experiment, please feel free to use it if necessary.    
 
